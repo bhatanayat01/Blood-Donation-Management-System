@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.stickeyy{
+    position:sticky;
+    border: 2px solid red;
+    top: 11px;
+    height: 100px;
+    background-color: brown;
+    bottom: 1000px;
+}
+.bigcointainer{
+    position: absolute;
+    border: 2px solid black ;
+    width: 600pxpx;
+    height: 400px;
+}
+.bigercontainer{
+    padding: 0;
+    margin: 0px
+    ;
+    height: 2000px;
+    width: 400pxpx;
+    border: 2px solid black;
+}

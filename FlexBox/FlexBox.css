@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    height: 400px;
+    border: 2px solid;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* the box goes to new line when srink depends on the resopnse o // works from top to bottom */
+    /* flex-wrap: wrap; */
+    /* boxes goes upwards according to height and width // works from bottom to upward  */
+    /* flex-wrap: wrap-reverse; */
+    /* Used to produce gape betweeen elements @ boxes */
+    /* gap: 10px; */
+    /* row-gap: 20px;
+    column-gap: 10px; */
+    flex-flow:   row;
+    /* used to create space from border side 
+     // the spaces first srinks after that the elements srinks
+
+     */
+    /* justify-content: space-around; */
+    /* creates the space between elements rather than border side  */
+    /* justify-content: space-between; */
+    /* /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* gap: 1px;  */
+    /* short the element in top middle and end  */
+    /* ealign-items: start; */
+    align-items: center;
+    /* align-items: end; */
+    align-content:space-evenly;
+ 
+
+}
+.box{
+    border: 2px solid lightcoral;
+    /* margin: 10px ; */
+    width: 80px;
+  flex-basis: 25%;
+}
+#box-1{
+    /* order: 1;
+    /* grow from 0-1 
+    // by default value is 1*/
+    /* flex-grow: 1; */
+    /* by default value is 2 */
+    /* flex-shrink: 2; */ 
+    /* main acces width of any  if you  have to tell the width */
+/* flex-basis: 200px; */
+
+}
+#box-2{
+    /* order: 2;
+    flex-grow: 2;
+    flex-shrink: 4; */
+    flex: 0/*grow*/ 2/*shrink*/ 200px/*initial width flex basis  */;
+    /* 
+    changes the position
+     */
+     align-self: flex-end;
+}
